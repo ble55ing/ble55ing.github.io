@@ -2,7 +2,7 @@
 layout: post
 title:  "docker使用"
 categories: linux
-tags:  docker tools
+tags:  tools
 author: ble55ing
 ---
 
