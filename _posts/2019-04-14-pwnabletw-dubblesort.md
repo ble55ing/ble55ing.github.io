@@ -9,7 +9,7 @@ author: ble55ing
 * content
 {:toc}
 
-##pwnable.tw dubblesort 分析
+## pwnable.tw dubblesort 分析
 
 本题考察的是scanf的%d对于‘+’的处理，相当于没有输入
 

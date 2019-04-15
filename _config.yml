@@ -27,16 +27,16 @@ description_footer: 来自ble55ing的个人专栏！
 
 comments:
   gitalk: true
-  gitalk_clientID: ddfea5df050e7ec692bd
-  gitalk_Secret: 120abebf20f226505414eee23866996fa5f34d3c
-  gitalk_repo: ble55ing.github.io
-  gitalk_owner: ble55ing
-  gitalk_admin: ble55ing
+  gitalk_clientID: '0c7f42f7d6f8705aa789'
+  gitalk_Secret: 'e04c000ae0576de2c50ae7d18049d2d298b860b4'
+  gitalk_repo: 'blog-comments'
+  gitalk_owner: 'ble55ing'
+  gitalk_admin: 'ble55ing'
   distractionFreeMode: true
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
-#duoshuo_shortname: #hygblog
-#disqus_shortname: #gaohaoyang
+#duoshuo_shortname: hygblog
+#disqus_shortname: gaohaoyang
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
