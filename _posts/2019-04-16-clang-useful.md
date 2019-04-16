@@ -38,11 +38,11 @@ extern 函数调用，无法获知函数体，不会创建到CallGraph中
 
 CFG控制流图
 
-![](https://github.com/ble55ing/PicGo/blob/master/CFG.png)
+![](https://raw.githubusercontent.com/ble55ing/PicGo/master/CFG.png?token=AlMwaAPQ4I8NmDpG90cggBkCQf90cXVVks5ctadYwA%3D%3D)
 
 CallGraph函数调用图
 
-![](https://github.com/ble55ing/PicGo/blob/master/CallGraph.png)
+![](https://raw.githubusercontent.com/ble55ing/PicGo/master/CallGraph.png?token=AlMwaBQ0NsKyizz3MwzoFQIYtyZSnUBrks5ctac-wA%3D%3D)
 
 
 AST图
@@ -158,7 +158,7 @@ int main()
 ```
 
 所有生成的相关文件会放到github的clang中，包括clang的分析命令和分析器的一些选项。
-[https://github.com/ble55ing/clang]https://github.com/ble55ing/clang
+[https://github.com/ble55ing/clang](https://github.com/ble55ing/clang)
 
 ## 遇到的一些问题
 
