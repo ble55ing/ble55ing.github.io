@@ -38,17 +38,16 @@ extern 函数调用，无法获知函数体，不会创建到CallGraph中
 
 CFG控制流图
 
-![](https://raw.githubusercontent.com/ble55ing/PicGo/master/CFG.png?token=AlMwaFWAomZqx-hxlr8hL_4FZ6XprLFWks5ctZVXwA%3D%3D)
+![](https://github.com/ble55ing/PicGo/blob/master/CFG.png)
 
 CallGraph函数调用图
 
-![](https://raw.githubusercontent.com/ble55ing/PicGo/master/CallGraph.png?token=AlMwaKLL4s3qq0QddJusNHpfSJzbAIuYks5ctZYbwA%3D%3D)
-
+![](https://github.com/ble55ing/PicGo/blob/master/CallGraph.png)
 
 
 AST图
 
-![](https://raw.githubusercontent.com/ble55ing/PicGo/master/ast.png?token=AlMwaEf3ud4vScK2b1ZmBsNbuT0YfZsTks5ctZbgwA%3D%3D)
+![](https://github.com/ble55ing/PicGo/blob/master/ast.png)
 
 Stats
 
@@ -159,7 +158,7 @@ int main()
 ```
 
 所有生成的相关文件会放到github的clang中，包括clang的分析命令和分析器的一些选项。
-
+[https://github.com/ble55ing/clang]https://github.com/ble55ing/clang
 ## 遇到的一些问题
 
 在低版本的clag中，可以直接clang -cc1 -analyze -cfg-dump 1.c来获得程序控制流图，但较高版本后将其中一部分提出来放到了分析器中 
