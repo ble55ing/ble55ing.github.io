@@ -47,7 +47,7 @@ CallGraph函数调用图
 
 AST图
 
-![](https://github.com/ble55ing/PicGo/blob/master/ast.png?raw=true)
+![](https://raw.githubusercontent.com/ble55ing/PicGo/master/ast.png?token=AlMwaBIbwtUSSCJftPvaUb1TesL75GIGks5ctabvwA%3D%3D)
 
 Stats
 
@@ -159,6 +159,7 @@ int main()
 
 所有生成的相关文件会放到github的clang中，包括clang的分析命令和分析器的一些选项。
 [https://github.com/ble55ing/clang]https://github.com/ble55ing/clang
+
 ## 遇到的一些问题
 
 在低版本的clag中，可以直接clang -cc1 -analyze -cfg-dump 1.c来获得程序控制流图，但较高版本后将其中一部分提出来放到了分析器中 
