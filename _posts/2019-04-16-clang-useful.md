@@ -47,7 +47,7 @@ CallGraph函数调用图
 
 AST图
 
-![](https://github.com/ble55ing/PicGo/blob/master/ast.png)
+![](https://github.com/ble55ing/PicGo/blob/master/ast.png?raw=true)
 
 Stats
 
@@ -167,7 +167,9 @@ int main()
 
 解决方法是使用-I添加包含库，
 
- 1 clang -cc1 -I/usr/include -I/home/blessing/clang-llvm/build386/lib/clang/5.0.0/include -analyze -analyzer-checker=debug.DumpCFG 1.c 
+```
+clang -cc1 -I/usr/include -I/home/blessing/clang-llvm/build386/lib/clang/5.0.0/include -analyze -analyzer-checker=debug.DumpCFG 1.c 
+```
 
 第一个包含库中含有stdio.h,第二个库中有stdder.h，之后还有需要的库还可以继续添加。
 
