@@ -19,7 +19,7 @@ clang的静态分析很大程度上通过AST（Abstract Syntax Tree  ，抽象�
 
 ## 抽象语法树AST
 
-clang的抽象语法树可以很好的表示程序的结构和逻辑，是clang对源程序进行分析后的产物。接下来结合一个实例展示一下这个抽象语法树是一个什么样的概念。相关文件存放在https://github.com/ble55ing/clang/tree/master/clang-insert
+clang的抽象语法树可以很好的表示程序的结构和逻辑，是clang对源程序进行分析后的产物。接下来结合一个实例展示一下这个抽象语法树是一个什么样的概念。相关文件存放在[https://github.com/ble55ing/clang/tree/master/clang-insert](https://github.com/ble55ing/clang/tree/master/clang-insert)
 
 首先来看一下源码，这是一个包含两个函数的源文件
 
