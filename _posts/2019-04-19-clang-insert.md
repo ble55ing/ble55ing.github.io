@@ -273,9 +273,9 @@ int aa(int a){
 
 如果觉得上边这个看起来比较费劲，也可以生成可视化的AST图，如下所示：
 
-![](https://github.com/ble55ing/PicGo/blob/master/ab.png)
+![](https://raw.githubusercontent.com/ble55ing/PicGo/master/ab.png)
 
-![](https://github.com/ble55ing/PicGo/blob/master/aa.png)
+![](https://raw.githubusercontent.com/ble55ing/PicGo/master/aa.png)
 
 
 

@@ -38,16 +38,16 @@ extern 函数调用，无法获知函数体，不会创建到CallGraph中
 
 CFG控制流图
 
-![](https://github.com/ble55ing/PicGo/blob/master/CFG.png)
+![](https://raw.githubusercontent.com/ble55ing/PicGo/master/CFG.png)
 
 CallGraph函数调用图
 
-![](https://github.com/ble55ing/PicGo/blob/master/CallGraph.png)
+![](https://raw.githubusercontent.com/ble55ing/PicGo/master/CallGraph.png)
 
 
 AST图
 
-![](https://github.com/ble55ing/PicGo/blob/master/ast.png)
+![](https://raw.githubusercontent.com/ble55ing/PicGo/master/ast.png)
 
 Stats
 
