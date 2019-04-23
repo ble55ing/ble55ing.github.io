@@ -19,7 +19,7 @@ author: ble55ing
 
 然后具体分析在进入delete之后的情景：
 
-![](https://github.com/ble55ing/PicGo/blob/master/20190414213415.png)
+![](https://raw.githubusercontent.com/ble55ing/PicGo/master/20190414213415.png?token=AJJTA2CLTOH25G2B27P4PTS4X4JJE)
 
 将程序断在delete中的关键位置，此时ebp为0xffac6cc8，而v2的值为0xffac6ca8，即在atoi数字后面的值，因而可以控制v2和v4，v5
 
