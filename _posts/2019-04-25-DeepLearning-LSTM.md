@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "LSTM实现中文分本情感分析"
+title:  "LSTM实现中文文本情感分析"
 categories: DeepLearing
 tags:  LSTM
 author: ble55ing
@@ -11,7 +11,7 @@ author: ble55ing
 
 ## 背景介绍
 
-文本情感分析是在文本分析领域的典型任务，实用价值很高。本模型是第一个上手实现的深度学习模型，目的是对深度学习做一个初步的了解，并入门深度学习在文本分析领域的应用。在进行模型的上手实现之前，已学习了吴恩达的机器学习和深度学习的课程，对理论有了一定的了解，感觉需要来动手实现一下了。github对应网址[https://github.com/ble55ing/LSTM-Sentiment_analysis](https://github.com/ble55ing/LSTM-Sentiment_analysis)
+文本情感分析是在文本分析领域的典型任务，实用价值很高。本模型是第一个上手实现的深度学习模型，目的是对深度学习做一个初步的了解，并入门深度学习在文本分析领域的应用。在进行模型的上手实现之前，已学习了吴恩达的机器学习和深度学习的课程，对理论有了一定的了解，感觉需要来动手实现一下了。github对应网址https://github.com/ble55ing/LSTM-Sentiment_analysis
 
 LSTM（Long Short-Term Memory）是长短期记忆网络，在自然语言处理的领域有着较好的效果。因此本文使用LSTM网络来帮助进行文本情感分析。本文将从分词、向量化和模型训练三个方面对所训练的模型进行讲解，本文所实现的模型达到了在测试集99%的准确率。
 
@@ -50,10 +50,11 @@ def onecut(doc):
     i=0
     while i < len(doc):
         c=""
+        #utf-8的编码格式，小于128的为1个字符，n个字符的化第一个字符的前n+1个字符是1110
         #print i,ord(doc[i])
         if ord(doc[i])>=128 and ord(doc[i])<192:
             print ord(doc[i])
-            assert 1==0
+            assert 1==0#所以其实这里是不应该到达的
             c = doc[i]+doc[i+1];
             i=i+2
             ret.append(c)
