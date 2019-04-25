@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "clang好用的一些命令汇总"
-categories: linux
-tags:  clang CodeAnalyze
+categories: CodeAnalyze
+tags:  clang
 author: ble55ing
 ---
 

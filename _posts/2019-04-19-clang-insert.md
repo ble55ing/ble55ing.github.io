@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "clang插桩"
-categories: linux
-tags:  clang CodeAnalyze
+categories: CodeAnalyze
+tags:  clang
 author: ble55ing
 ---
 

@@ -21,8 +21,12 @@ type: page
 
 * GitHub：[ble55ing](https://github.com/ble55ing)
 * email：ble55ing@126.com
+* alipay:agilepls@163.com
 
 ### Update Log
+
+*2019.4.25 *
+* `[+]` 添加LSTM文本情感分析
 
 *2019.4.19 *
 * `[+]` 继续添加clang的静态分析功能,使clang的Stmt块与函数之间构建关系
