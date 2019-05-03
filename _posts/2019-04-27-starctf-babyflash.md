@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "*ctf babyflash"
+title:  "starctf babyflash"
 categories: ctf
-tags: *ctf misc
+tags: ctf misc
 author: ble55ing
 ---
 
 * content
 {:toc}
 
-## *ctf babyflash writeup
+## starctf babyflash writeup
 
 一道flash题目，本来只是随手打开的，结果就做出来了，还拿了一血 ）逃（
 

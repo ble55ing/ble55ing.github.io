@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "*ctf blind pwn"
+title:  "starctf blind pwn"
 categories: ctf
-tags: *ctf brop
+tags: starctf brop
 author: ble55ing
 ---
 
 * content
 {:toc}
 
-## *ctf blind pwn writeup
+## starctf blind pwn writeup
 
 blind pwn，顾名思义，没给源文件的题目
 
