@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "从零开始aeg"
-categories: paper
-tags: paper DTA
+categories: aeg
+tags: aeg atmosphere
 author: ble55ing
 ---
 

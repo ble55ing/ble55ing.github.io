@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "基于 roBDD 的细颗粒度动态污点分析"
+title:  "Directed Greybox Fuzzing"
 categories: paper
-tags: paper DTA
+tags: paper concolic
 author: ble55ing
 ---
 
@@ -17,6 +17,8 @@ author: ble55ing
 定向灰盒模糊器（DGF）的工具AFLGo 好得多
 
  OSS-Fuzz 是一个针对安全关键库和其他开源项目的持续测试平台 。
+
+2017年ACM会议
 
 ### 本文内容
 
@@ -43,4 +45,8 @@ Dgf 将目标位置的可达性转换为最佳化问题，而现有的定向(白
 先通过将一个函数的所有调用位点与被调用函数的第一个基本块连接起来，构造跨过程控制流图(iCFG)。 这需要几个小时。 一旦有了 iCFG，它将计算每个基本区块在 iCFG 内的目标距离，作为通往任何目标的最短路径的平均长度。这也可能需要几个小时。 Bb-level 目标距离的核心是基于 Djikstra 的最短路径算法，该算法的最坏情况复杂度为 o (v2) ，其中 v 为节点数。  
 
 怎么感觉这么熟悉。。
+
+
+
+
 
