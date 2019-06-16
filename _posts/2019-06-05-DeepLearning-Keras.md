@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Keras使用"
-categories: DeepLearing
-tags: DeepLearing atmosphere
+categories: DeepLearning
+tags: DeepLearning atmosphere
 author: ble55ing
 ---
 

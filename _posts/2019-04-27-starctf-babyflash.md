@@ -2,7 +2,7 @@
 layout: post
 title:  "starctf babyflash"
 categories: ctf
-tags: ctf misc
+tags: starctf misc
 author: ble55ing
 ---
 
