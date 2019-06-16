@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "基于 roBDD 的细颗粒度动态污点分析"
+title:  "面向二进制程序的漏洞挖掘关键技术研究分析"
 categories: paper
-tags: paper DTA
+tags: paper elf Dr
 author: ble55ing
 ---
 
@@ -161,7 +161,7 @@ ffdds
          mov eax, x; // eax=x
          add eax, 2; // eax = eax+2
          js target
-         
+     
    这段二进制代码中，将源程序中两个谓词判断简化为-一个谓词判断，虽然极大的x会使add指令会发生溢出，GCC正是利用了溢出的性质，简化了谓词判断。检测过程中，不能将这种对程序不造成破坏的良性溢出识别为整数溢出漏洞。
 
 ### 基于细粒度污点分析的导向性样本生成
