@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "VulDeePecker分析"
+title:  "TaintScope 分析"
 categories: paper
-tags: paper DeepLearning
+tags: paper SampleForm
 author: ble55ing
 ---
 
