@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "LSTM实现中文文本情感分析"
-categories: DeepLearing
+categories: DeepLearning
 tags:  LSTM
 author: ble55ing
 ---

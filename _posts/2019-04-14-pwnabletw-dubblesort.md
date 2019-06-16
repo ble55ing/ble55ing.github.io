@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "pwnable.tw dubblesort"
-categories: ctf
-tags: pwnable
+categories: pwnable
+tags: pwn
 author: ble55ing
 ---
 
