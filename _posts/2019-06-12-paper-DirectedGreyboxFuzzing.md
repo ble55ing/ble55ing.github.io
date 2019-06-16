@@ -8,7 +8,7 @@ author: ble55ing
 
 * content
 {:toc}
-# Directed Greybox Fuzzing    
+# Directed Greybox Fuzzing分析    
 
 ### 当前进展
 
@@ -26,7 +26,7 @@ author: ble55ing
 
 Dgf 将目标位置的可达性转换为最佳化问题，而现有的定向(白盒)模糊方法将可达性转换为迭代约束补偿问题。 
 
-本文的定向定向灰盒模糊是基于CG和CFG的，使用距离测量和基于退火的功率调度的实现方法，在补丁测试和crash复制领域很有用
+本文的定向灰盒模糊是基于CG和CFG的，使用距离测量和基于退火的功率调度的实现方法，在补丁测试和crash复制领域很有用
 
 本文的主要工作：
 
