@@ -12,7 +12,7 @@ author: ble55ing
 
 前文使用angr获取了二进制程序的cfg图，接下来要依据控制流图，提取出afl的路径信息。
 
-前文链接：<https://ble55ing.github.io/2019/06/18/afl-cfgpath> 
+前文链接：<https://ble55ing.github.io/2019/06/18/angr-cfg/>
 
 ### 先提取普通的cfg图
 
@@ -31,3 +31,7 @@ author: ble55ing
 额然后虚拟机就启动不起来了```[/dev/sda1: clean, */* files, */* block```，Ctrl Alt +F2进命令行看看。```df -h```。竟然空间全占满了。删一个文件然后```sudo rm -rf ~/.local/shared/Trash/*```。reboot重启，等以会儿。。好了。
 
 但这样下去就没法运行了。。只好新建一个虚拟机，待续
+
+### 后文链接
+<https://ble55ing.github.io/2019/07/03/afl-cfgpath2/>
+
