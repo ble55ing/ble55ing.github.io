@@ -2,7 +2,7 @@
 layout: post
 title:  "二进制插桩方式探究"
 categories: elf
-tags: elf arm atmosphere
+tags: elf
 author: ble55ing
 ---
 
@@ -170,8 +170,33 @@ sudo apt install qemu-user
 
 安装了qemu-arm就可以直接使用命令qemu-arm hello运行arm的程序了 
 
+### 使用arm-linux-gdb调试arm程序
+
+按照参考文献的3中说的
+
+```
+./configure --target=arm-linux --prefix=/usr/local/arm-gdb -v
+make
+make install
+sudo gedit /etc/profile 
+
+export PATH=$PATH:/usr/local/arm-gdb/bin
+```
+
+试验了8.1 ，7.4两个版本，最终还是最新版的8.3安装成功了
+
+然后如何使用：
+
+开一个terminal，qemu-arm -L /usr/arm-linux-gnueabi -cpu cortex-a15 -g 1234 easy
+
+再开另一个terminal，arm-linux-gdb ./easy，然后输入target remote localhost:1234。
+
+就可以愉快的调试啦
+
+![](https://raw.githubusercontent.com/ble55ing/PicGo/master/armatmoph.bmp)
+
 ### 参考文章
 
 <https://blog.csdn.net/linyt/article/details/42504975?utm_source=blogxgwz8> 
 
-<http://blog.sina.com.cn/s/blog_13279ca6d0102xb0f.html> 
+<http://blog.sina.com.cn/s/blog_13279ca6d0102xb0f.html> <https://blog.csdn.net/kangear/article/details/8635029> 
