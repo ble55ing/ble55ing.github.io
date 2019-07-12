@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "二进制插桩方式探究"
+title:  "arm虚拟机环境搭建"
 categories: elf
 tags: elf
 author: ble55ing
