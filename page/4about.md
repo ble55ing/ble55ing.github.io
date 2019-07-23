@@ -25,6 +25,9 @@ type: page
 
 ### Update Log
 
+*2019.7.21 *
+* `[+]` 添加了2019cybricsctf部分题目的wp
+
 *2019.7.9 *
 * `[+]` 添加了对二进制插桩工具LIEF的研究arm
 
