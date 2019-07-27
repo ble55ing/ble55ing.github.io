@@ -63,7 +63,7 @@ author: ble55ing
 
    在main_arena+96的地方存着topchunk的位置，通过0x56的堆头地址得到其之前的一个位置（fastbin），然后修改这个topcuhunk的地址，到malloc_hook前面一点的地方，即IO_wide_data_0+301处，找到一个0x7f，将其当做topchunk，然后再申请时切割topchunk就能修改malloc_hook了。当然这题还需要realloc中转一下。
 
-   
+   <https://github.com/ble55ing/ctfpwn/tree/master/tcache/2.28> 
 
 ### 参考资料
 
