@@ -25,6 +25,12 @@ type: page
 
 ### Update Log
 
+*2019.7.27 *
+* `[+]` 添加了exhausttopchunk的0ctf-babyheap
+
+*2019.7.26 *
+* `[+]` 添加了largebin的Storm_Note
+
 *2019.7.21 *
 * `[+]` 添加了2019cybricsctf部分题目的wp
 
