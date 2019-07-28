@@ -19,6 +19,7 @@ type: page
 
 ## 联系我
 
+欢迎交流
 * GitHub：[ble55ing](https://github.com/ble55ing)
 * email：ble55ing@126.com
 * alipay:agilepls@163.com
