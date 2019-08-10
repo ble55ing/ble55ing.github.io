@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "cybricsctf Tone"
+title:  "de1ctf Mine sweeping"
 categories: ctf
 tags: cybricsctf misc
 author: ble55ing
