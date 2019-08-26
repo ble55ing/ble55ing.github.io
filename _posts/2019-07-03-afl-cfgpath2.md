@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "根据cfg分析afl的路径信息（2）"
-categories: angr
+categories: CFGAnalyze
 tags: angr afl
 author: ble55ing
 ---
