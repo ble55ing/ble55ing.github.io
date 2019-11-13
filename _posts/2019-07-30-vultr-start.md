@@ -29,6 +29,7 @@ author: ble55ing
 登上去首先是配置SSR，
 
 ```
+apt install yum
 yum -y install wget
 wget --no-check-certificate https://freed.ga/github/shadowsocksR.sh; bash shadowsocksR.sh
 ```
@@ -48,6 +49,12 @@ chmod +x bbr.sh
 SSR客户端需要NET Framework 4.5.2以上，下载链接：
 
 <https://dotnet.microsoft.com/download/thank-you/net472>
+
+### 端口更新
+
+如果想要换个端口，则可以通过修改/etc/shadowsocks.json 的方式，修改完之后重启SSr服务器即可
+
+service shadowsocks restart
 
 ###参考资料
 

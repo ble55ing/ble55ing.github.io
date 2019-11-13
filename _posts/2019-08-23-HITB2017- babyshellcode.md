@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "SUCTF2019 Windows BabyStack"
+title:  "HITB2017 Windows babyshellcode"
 categories: ctf
 tags: pwn Windows
 author: ble55ing
@@ -10,7 +10,7 @@ author: ble55ing
 {:toc}
 ## HITB2017 babyshellcode
 
-古老的Windwos题，希望容易一点。
+古老的Windows题，希望容易一点。
 
 ### 题目描述
 

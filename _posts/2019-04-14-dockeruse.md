@@ -47,6 +47,8 @@ docker run出来的虚拟机是拥有不同的虚拟ip的。
 
 查看docker网络环境  docker network ls
 
+使用鼠标进行复制粘贴：选中文字，按住shift再按鼠标右键就能出来菜单了
+
 ## 使用docker Hub
 
 docker tag container:v1 61355ing/container首先为docker打上tag，

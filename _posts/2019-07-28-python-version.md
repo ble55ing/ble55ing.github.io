@@ -45,6 +45,12 @@ python2中，整数相除为整数，python3中，是真正的除法，全为flo
 
 报错，UnicodeDecodeError: 'gbk' codec can't decode byte 0xa2 in position 49: illegal multibyte sequence，需要更改为fr = open(file_path,'r',encoding='UTF-8')
 
+### map使用
+
+TypeError: 'map' object is not subscriptable 和TypeError: object of type 'map' has no len() 
+
+解决方法还是list(map())的方法
+
 ### 参考资料
 
 <https://www.jianshu.com/p/544d8bf98cd8> 
