@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "de1ctf Mine sweeping"
+title:  "TWCTF的Easy_crack_me"
 categories: ctf
 tags: twctf aeg
 author: ble55ing

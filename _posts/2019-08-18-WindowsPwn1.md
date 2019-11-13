@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Windows Pwn"
+title:  "Windows Pwn 入门"
 categories: Windows pwn 
 tags: pwn
 author: ble55ing
@@ -8,7 +8,7 @@ author: ble55ing
 
 * content
 {:toc}
-## Windows Pwn 
+## Windows Pwn 入门 
 
 ctf比赛中的Windwos Pwn题目愈发的多了，学一波
 

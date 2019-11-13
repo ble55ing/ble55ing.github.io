@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "二进制插桩方式探究"
+title:  "strcpy 函数逻辑分析"
 categories: elf
 tags: elf
 author: ble55ing
