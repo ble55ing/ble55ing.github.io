@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Windows Pwn相关知识"
-categories: Windows pwn 
+categories: Windows
 tags: pwn
 author: ble55ing
 ---
@@ -52,7 +52,7 @@ Windwos有三种调用方式，待续
 
 ### Windows的安全防护机制
 
-参考另一篇文章请
+参考另一篇文章请<https://ble55ing.github.io/2019/08/18/WindowsPwn0/> 
 
 ### 参考资料
 

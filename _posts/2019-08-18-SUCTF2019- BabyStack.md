@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "SUCTF2019 Windows BabyStack"
-categories: ctf
+categories: ctf Windows pwn
 tags: pwn Windows
 author: ble55ing
 ---

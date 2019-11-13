@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "De1CTF unprintable分析"
-categories: ctf
+categories: ctf pwn
 tags: pwn
 author: ble55ing
 ---

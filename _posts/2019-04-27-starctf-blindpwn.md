@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "starctf blind pwn"
-categories: ctf
+categories: ctf pwn
 tags: starctf brop pwn
 author: ble55ing
 ---

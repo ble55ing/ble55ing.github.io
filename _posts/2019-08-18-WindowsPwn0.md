@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Windows Pwn安全防护机制"
-categories: Windows pwn 
+categories: Windows
 tags: pwn
 author: ble55ing
 ---

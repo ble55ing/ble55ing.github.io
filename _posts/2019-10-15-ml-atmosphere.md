@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "机器学习环境安装"
-categories: elf
-tags: elf
+categories: DeepLearning
+tags: DeepLearning atmosphere
 author: ble55ing
 ---
 

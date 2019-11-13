@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "starctf2018 babystack"
-categories: ctf
+categories: ctf pwn
 tags: starctf pwn
 author: ble55ing
 ---

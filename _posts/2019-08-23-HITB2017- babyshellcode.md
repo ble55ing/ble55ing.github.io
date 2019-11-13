@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "HITB2017 Windows babyshellcode"
-categories: ctf
+categories: ctf Windows pwn
 tags: pwn Windows
 author: ble55ing
 ---

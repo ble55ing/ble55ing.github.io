@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "strcpy 函数逻辑分析"
-categories: elf
+categories: elf linux pwn
 tags: elf
 author: ble55ing
 ---
