@@ -2,7 +2,7 @@
 layout: post
 title:  "面向二进制程序的漏洞挖掘关键技术研究分析"
 categories: paper
-tags: paper elf Dr
+tags: paper elf
 author: ble55ing
 ---
 
