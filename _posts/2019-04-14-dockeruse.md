@@ -55,6 +55,17 @@ docker tag container:v1 61355ing/container首先为docker打上tag，
 
 然后使用docker login登录进去，使用docker push 61355ing/container 就能push上去了，下来的时候就是docker pull 61355ing/container 
 
+### 使用dockerfile
+
+命令 ： docker build -f aa_dockerfile .
+
+需要注意的是，这命令的执行中会将该目录下所用文件上传到docker daemon，所以一定要新建一个目录。
+
+不然就会出现如下情况
+
+Sending build context to Docker daemon  15.84GB
+Error response from daemon: Error processing tar file(exit status 1): write /pwndocker.tar: no space left on device
+
 
 
 

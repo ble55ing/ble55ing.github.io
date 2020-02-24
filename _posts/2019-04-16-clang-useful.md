@@ -20,7 +20,7 @@ debug.ViewCFG能够获得程序的控制流图（基本块的），
 debug.ViewCallGraph能够得到函数调用图（没有实体的函数不在其中）,
 debug.Stats显示基本块的可达情况
 debug.DumpCalls，显示函数调用情况，不区分函数的，如果函数间存在调用关系才会以缩进的形式体现
-上述的这些View都可以换成dump来获得文字版，View会生成dot结尾的图，可以通过Graphviz 来生成可视化的图，其命令为dot xx.dot -Tpng -o xx.png 。但ubantu下生成的图导到window电脑上就打不开了不知道为什么
+上述的这些View都可以换成dump来获得文字版，View会生成dot结尾的图，可以通过Graphviz 来生成可视化的图，其命令为dot xx.dot -Tpng -o xx.png 。但ubantu下生成的图导到window电脑上就打不开了不知道为什么；后来又打开了，是因为太大了一开始没加载出来
 
 而AST的生成可以不通过分析器而直接使用，如-ast-view可以生成ast的图，
 
@@ -162,7 +162,7 @@ int main()
 
 ## 遇到的一些问题
 
-在低版本的clag中，可以直接clang -cc1 -analyze -cfg-dump 1.c来获得程序控制流图，但较高版本后将其中一部分提出来放到了分析器中 
+在低版本的clang中，可以直接clang -cc1 -analyze -cfg-dump 1.c来获得程序控制流图，但较高版本后将其中一部分提出来放到了分析器中 
 
 另外clang -cc1默认仅限当前目录，所以会出现fata error: 'stdio.h' file not found 的情况。
 
