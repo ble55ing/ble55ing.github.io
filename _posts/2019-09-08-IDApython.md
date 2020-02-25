@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "IDA Python实现控制流图生成"
-categories: note
-tags: note
+categories: CodeAnalyze
+tags: elf CodeAnalyze
 author: ble55ing
 ---
 

@@ -7,7 +7,7 @@
 
 # Site settings
 title: ble55ing的技术专栏
-brief-intro: code analysis and ctf
+brief-intro: code analysis ,fuzzing technique and ctf
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ble55ing.github.io" # the base hostname & protocol for your site
 
