@@ -281,7 +281,7 @@ int aa(int a){
 
 ## 基于抽象语法树的插桩
 
-整体的插桩也是基于抽象语法树进行的，是在遍历抽象语法树的过程中对源码中的关键位置插入插桩点，相当于是重写了RecursiveASTVisitor类，修改了VisitFunctionDecl和VisitStmt的功能，加入了代码插桩的部分，然后使用Rewriter将插桩代码写入到文件中。
+整体的插桩也是基于抽象语法树进行的，是在遍历抽象语法树的过程中对源码中的关键位置插入插桩点，相当于是基于RecursiveASTVisitor类进行了源文件的重写，使用了VisitFunctionDecl和VisitStmt定位函数和处理基本块，加入了代码插桩的部分，然后使用Rewriter将插桩代码写入到文件中。
 
 VisitFunctionDecl函数负责找到函数之后的处理，如果f->hasBody则说明其有着函数定义的部分，接下来就将对其进行分析，如果f->isMain()则表示函数是主函数。具体的相关函数可参考http://clang.llvm.org/doxygen/classclang_1_1FunctionDecl.html
 
