@@ -26,6 +26,10 @@ Section表：Section Headers的表
 
 ![](https://raw.githubusercontent.com/ble55ing/PicGo/master/windwos2.png)
 
+### 栈上参数存储
+
+ecx，edx，r8d，r9d
+
 ### DEP
 
 Linux上的NX，栈不可执行保护
@@ -147,7 +151,7 @@ TEB/PEB/堆/栈的随机化是每次进程重启时。
 
 ![](https://raw.githubusercontent.com/ble55ing/PicGo/master/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190830222244.png)
 
-	##### 快表
+##### 快表
 
 加速堆块分配采用的策略，这类单向链表不会发生堆块合并；快表初始化为空，每条快表最多只有4个结点 
 

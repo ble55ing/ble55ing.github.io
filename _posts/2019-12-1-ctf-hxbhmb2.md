@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "十一月CTF部分题目汇总一"
+title:  "十一月CTF部分题目汇总二"
 categories: ctf pwn
 tags: ctf pwn
 author: ble55ing
