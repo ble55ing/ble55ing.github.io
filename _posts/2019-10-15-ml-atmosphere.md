@@ -73,3 +73,18 @@ pip install tensorflow-gpu.
 
    python2.7 -m pip install 可替换pip install。
 
+### sudo python和用户python 不是一个python的问题
+
+which python 查看使用的是哪个python，发现sudo which python和which python不是一个，导致了安装的环境不能正常使用的问题。
+
+因此，将sudo的 python指向的位置改为了自己python的位置，使用软链接
+
+```
+sudo cp /usr/bin/python /usr/bin/python_bak
+sudo rm /usr/bin/python
+sudo ln -s /data/xxx/anaconda3/bin/python /usr/bin/python
+```
+
+另：如何将用户放入sudo组：
+
+修改/etc/sudoers
