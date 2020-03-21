@@ -137,13 +137,13 @@ TEB/PEB/堆/栈的随机化是每次进程重启时。
 #### SEHOP(x86)
 
 ```
-  1.所有SEH结构体必须存在栈上
+  1. 所有SEH结构体必须存在栈上
   2. 所有SEH结构体必须四字节对齐
-  3.所有SEH结构体中处理异常的函数必须不在栈上
-  4.检测整个SEH链中最后一个结构体，其next指针必须指向0xffffffff，且其异常处理函数必须是
+  3. 所有SEH结构体中处理异常的函数必须不在栈上
+  4. 检测整个SEH链中最后一个结构体，其next指针必须指向0xffffffff，且其异常处理函数必须是
   ntdll!FinalExceptionHandler
-  5.攻击者将SEH指针劫持到堆空间中运行shellcode。
-  6.有了SEHOP机制以后，由于ASLR的存在，攻击者很难将伪造的SEH链表的最后一个节点指到
+  5. 攻击者将SEH指针劫持到堆空间中运行shellcode。
+  6. 有了SEHOP机制以后，由于ASLR的存在，攻击者很难将伪造的SEH链表的最后一个节点指到
   ntdll!FinalExceptionHandler上所以在检测最后一个节点的时候会被SEHOP机制发现异常
 ```
 
