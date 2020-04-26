@@ -66,6 +66,20 @@ docker tag container:v1 61355ing/container首先为docker打上tag，
 Sending build context to Docker daemon  15.84GB
 Error response from daemon: Error processing tar file(exit status 1): write /pwndocker.tar: no space left on device
 
+### docker 更改配置
+
+比如要更改绑定的端口或者是映射的文件夹
+
+```
+docker inspect 897 # 用来查看
+cd /var/lib/docker/containers/8973019dbb476fef2a3610da4156ff9a12827f27ddfd9d425ef504c93e1f9baf 
+这个是docker的完整hash，在inspect里有
+在其中有两个json文件，是用来做配置的。
+一定要两个文件都改了，就比较稳
+然后service docker restart
+docker inspect 897 # 再次查看配置是否更改，没更改就再来一遍
+```
+
 
 
 
