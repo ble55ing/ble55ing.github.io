@@ -80,6 +80,8 @@ cd /var/lib/docker/containers/8973019dbb476fef2a3610da4156ff9a12827f27ddfd9d425e
 docker inspect 897 # 再次查看配置是否更改，没更改就再来一遍
 ```
 
+## docker清除
 
+docker rmi 2a0，报错image is referenced in multiple repositories
 
-
+docker rmi contain:v1，出错是因为tag没删掉，这样就能把tag一起删了
